@@ -1,0 +1,14 @@
+{
+  "name": "kalshi-15m-backtest",
+  "version": "1.0.0",
+  "description": "Kalshi's taker fee with its rounding, and a replay of price-band rules over Kalshi's settled 15-minute markets. No dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "main": "fees.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "replay": "node replay.js"
+  },
+  "keywords": ["kalshi", "prediction-markets", "backtest", "fees", "bitcoin"]
+}
